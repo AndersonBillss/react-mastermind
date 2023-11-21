@@ -1,5 +1,6 @@
 .main {
   display: flex;
+  padding: 3rem;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
@@ -8,6 +9,11 @@
   display: flex;
   align-items: center;
   padding: 5px 20px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .selectedRow{
   background-color: rgba(32, 178, 171, 0.5);
@@ -93,5 +99,18 @@
 
 
 .boardLeftContainer{
+  margin: 15px;
+}
+.MasterMindTitle{
+  background-color:rgba(0, 187, 177, 0.5);
+  border-radius: 15px;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px 3px rgb(23, 126, 126);
+}
+.MasterMindWinMessage{
+  background-color:rgba(0, 187, 177, 0.5);
+  border-radius: 15px;
+  padding: 4px 4px;
+  box-shadow: 0 0 5px 3px rgba(0, 187, 177, 0.5);
   margin: 15px;
 }
