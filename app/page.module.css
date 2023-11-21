@@ -2,6 +2,96 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+}
+.row{
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+}
+.selectedRow{
+  background-color: rgba(32, 178, 171, 0.5);
+  box-shadow: 0 0 5px 3px  rgba(32, 178, 171, 0.5);
+  border-radius: 15px;
+}
+.board{
+  display: flex;
+  background-color: darkgray;
+  box-shadow: 0 0 5px black;
+  padding: 10px;
+  border-radius: 15px;
+}
+.piece{
+  width: 65px;
+  height: 65px;
+  background-color: gray;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px black;
+}
+
+.selectedPiece{
+  box-shadow: 0 0 5px 3px rgb(17, 5, 96)
+}
+.piece1{
+  background-color: red;
+}
+.piece2{
+  background-color: orange;
+}
+.piece3{
+  background-color: yellow;
+}
+.piece4{
+  background-color: green;
+}
+.piece5{
+  background-color: blue;
+}
+.piece6{
+  background-color: white;
+}
+
+.pin{
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: gray;
+  box-shadow: 0 0 5px black;
+}
+.pin1{
+  background-color: white;
+}
+.pin2{
+  background-color: red;
+}
+
+.selectColors{
+  justify-content: center;
+}
+.guessButton{
+  font-size: 24px;
+  margin: 15px;
+  padding: 5px 10px;
+  background-color: gray;
+  border: 2px darkgray solid;
+  color: darkgray;
+  border-radius: 15px;
+}
+.canGuess{
+  background-color: blue;
+  color: white;
+}
+.canGuess:hover{
+  cursor: pointer;
+  filter: brightness(95%)
+}
+.canGuess:active{
+  filter: brightness(105%)
+}
+
+
+.boardLeftContainer{
+  margin: 15px;
 }
